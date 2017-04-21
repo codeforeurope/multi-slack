@@ -2,13 +2,7 @@
 Slack team to team communication
 
 ## For Code for Europe
-Currently I am hosting OVER HTTP at http://slackbots.jgroenen.nl
-
-### To-do
-Move to (for example) https://www.multi-slack.com/codeforeurope-a961e65b9dcbbb01915cc05954c03991ec8a93da
-1. Create domain
-2. Install SSL
-3. Implement multi-channel
+Currently moving to https://multi-slack.eu/codeforeurope-<security_hash>
 
 ## Setup
 1. Copy channels.dist.php to channels.php
