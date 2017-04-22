@@ -5,6 +5,10 @@
 
 $channels = require_once("channels.php");
 
+$path = array_values(array_filter(explode("/", $_SERVER["REQUEST_URI"])));
+$id = $path[0];
+$channels = isset($channels[$id]) ? $channels[$id] : reset($channels);
+
 $prefix = "‏"; // HACK TO PREVENT PING-PONG USING U+200F Right-To-Left Mark &#8207;         "‏" http://stackoverflow.com/questions/17978720/invisible-characters-ascii
 
 // Only registered channels can broadcast.
