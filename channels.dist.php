@@ -1,7 +1,7 @@
 <?php
 
 return $channels = [
-    "<default multi-slack channel name>" => [ // FIXME: remove defaulting later
+    "<first multi-slack channel name>" => [
         "<first slack channel outgoing webhook token>" => "<first slack channel incoming webhook url>", // <first slack team name>#<first slack channel name>
         "<second slack channel outgoing webhook token>" => "<second slack channel incoming webhook url>", // <second slack team name>#<second slack channel name>
     ],
