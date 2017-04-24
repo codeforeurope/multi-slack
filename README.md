@@ -2,7 +2,7 @@
 Slack team to team communication
 
 ## For Code for Europe
-Currently moving to https://multi-slack.eu/codeforeurope-<security_hash>
+Multi-slack channels are available at https://multi-slack.eu Please PM @jgroenen in Code for all Slack for more information.
 
 ## To-do
 1. As a user I want to create a new multi-slack channel and receive a secret channel link (by e-mail)
